@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bart", "Bart\Bart.csproj", "{848B7A32-A07D-4015-ACCF-7B32A5701E5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "slnPlatform", "slnPlatform", "{626011DC-1BDF-4536-BF41-0F35F583D14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseMigrations", "..\Platform\DatabaseMigrations\DatabaseMigrations.csproj", "{673989AA-1275-4A2F-9A28-0C234352BE05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848B7A32-A07D-4015-ACCF-7B32A5701E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848B7A32-A07D-4015-ACCF-7B32A5701E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848B7A32-A07D-4015-ACCF-7B32A5701E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848B7A32-A07D-4015-ACCF-7B32A5701E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673989AA-1275-4A2F-9A28-0C234352BE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673989AA-1275-4A2F-9A28-0C234352BE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673989AA-1275-4A2F-9A28-0C234352BE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673989AA-1275-4A2F-9A28-0C234352BE05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{673989AA-1275-4A2F-9A28-0C234352BE05} = {626011DC-1BDF-4536-BF41-0F35F583D14F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED75B70F-6827-4B21-BFE6-5F8CEB382D1A}
+	EndGlobalSection
+EndGlobal
